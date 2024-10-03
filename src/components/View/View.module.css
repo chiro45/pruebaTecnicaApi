@@ -1,0 +1,46 @@
+.containerSection {
+  width: 80%;
+}
+
+.containerList {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  overflow-y: auto;
+  max-height: 70vh;
+  gap: 1rem;
+  border: 1px solid grey;
+  padding: 0.4rem;
+  border-radius: 0.4rem;
+}
+
+.cardCharacter {
+  border-radius: 0.4rem;
+  border: 1px solid grey;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+}
+
+.cardCharacter p {
+  font-size: 1.3rem;
+}
+.cardCharacter img {
+  width: 100%;
+}
+
+::-webkit-scrollbar {
+  border-radius: 0.4rem;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 0.4rem;
+
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 0.4rem;
+
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
